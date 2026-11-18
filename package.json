@@ -1,0 +1,24 @@
+{
+  "name": "unclekk-rsi-guarded-loop-kit",
+  "version": "0.2.4",
+  "description": "UncleKK Guarded RSI Loop Kit - four-stage loop SOP with zero-dependency regression gate and explicit claim boundaries (bounded prototype, not strict RSI).",
+  "main": "scripts/gate_min.py",
+  "scripts": {
+    "test": "python3 scripts/test_all.py",
+    "lint": "python3 -m py_compile scripts/*.py",
+    "verify": "python3 scripts/test_all.py",
+    "selftest": "python3 scripts/test_all.py"
+  },
+  "keywords": [
+    "rsi", "guarded-loop", "four-stage", "skill-evolution",
+    "regression-gate", "claim-boundary", "anti-whitewash", "unclekk"
+  ],
+  "author": "unclekk",
+  "license": "个人非商用 / personal non-commercial",
+  "dependencies": {},
+  "devDependencies": {},
+  "python": ">=3.8",
+  "skills": {
+    "triggers": ["技能进化", "四段闭环", "回归门禁", "guarded loop", "claim boundary"]
+  }
+}

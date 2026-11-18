@@ -1,0 +1,10 @@
+{
+  "_note": "示意结果集（demo only，非实测）。5/5 仅演示输出格式，不代表真实能力或实测通过。",
+  "results": [
+    {"id": "t1-frozen", "passed": true},
+    {"id": "t2-gate", "passed": true},
+    {"id": "t3-claim", "passed": true},
+    {"id": "t4-failclosed", "passed": true},
+    {"id": "t5-writeback", "passed": true}
+  ]
+}

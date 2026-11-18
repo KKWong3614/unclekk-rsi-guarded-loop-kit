@@ -1,0 +1,10 @@
+{
+  "_note": "示意任务集（demo only，非实测）。换成你自己的冻结任务集时，重算哈希锁见 references/runnable-guide.md。",
+  "tasks": [
+    {"id": "t1-frozen", "expect": "冻结基线不退化"},
+    {"id": "t2-gate", "expect": "门禁判定可复算"},
+    {"id": "t3-claim", "expect": "宣称边界不越界"},
+    {"id": "t4-failclosed", "expect": "判据异常拒绝放行"},
+    {"id": "t5-writeback", "expect": "写回需授权与回滚"}
+  ]
+}
